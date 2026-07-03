@@ -73,6 +73,8 @@ private enum RobotMode: String, CaseIterable, Identifiable {
     case damping
     case zeroTorque = "zero_torque"
     case standing
+    case Walk
+
 
     var id: String {
         rawValue
@@ -90,6 +92,8 @@ private enum RobotMode: String, CaseIterable, Identifiable {
             return "Zero Torque"
         case .standing:
             return "Standing"
+        case .Walk:
+            return "Walk"
         }
     }
 }
