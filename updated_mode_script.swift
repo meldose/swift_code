@@ -177,7 +177,7 @@ private enum RobotMode: CaseIterable, Identifiable {
     var tintColor: Color {
         switch self {
         case .damp:
-            return .orange
+            return .yellow
         case .zeroTorque:
             return .purple
         case .preparation:
@@ -191,4 +191,3 @@ private enum RobotMode: CaseIterable, Identifiable {
 #Preview {
     ContentView()
 }
-
